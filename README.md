@@ -5,19 +5,19 @@ Process properly without manual intervention .
 It uses Selenium WebDriver with TestNG , mailosaur and follows the Page Object Model (POM) design pattern.
 
 ## Tech Stack
-1.Java
-2.Selenium WebDriver
-3.TestNG
-4.Maven
-5.Mailosaur (for OTP verification)
-6.Extent Reports / HTML Reporting
+1. Java
+2. Selenium WebDriver
+3. TestNG
+4. Maven
+5. Mailosaur (for OTP verification)
+6. Extent Reports / HTML Reporting
 
 ## Prerequisites
-1.Make sure the following are installed:
-2.Java JDK 20
-3.Apache-maven-3.9.16
-4.Chrome Browser
-5.ChromeDriver (4.43.0)
+1. Make sure the following are installed:
+2. Java JDK 20
+3. Apache-maven-3.9.16
+4. Chrome Browser
+5. ChromeDriver (4.43.0)
 ## Dependencies
 The project uses the following dependencies:
 1.Selenium WebDriver
