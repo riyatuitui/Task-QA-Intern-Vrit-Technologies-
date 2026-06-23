@@ -20,12 +20,12 @@ It uses Selenium WebDriver with TestNG , mailosaur and follows the Page Object M
 5. ChromeDriver (4.43.0)
 ## Dependencies
 The project uses the following dependencies:
-1.Selenium WebDriver
-2.TestNG
-3.WebDriverManager
-4.Mailosaur Java 
-5.Maven Surefire Plugin
-6.Extentreports
+1. Selenium WebDriver
+2. TestNG
+3. WebDriverManager
+4. Mailosaur Java 
+5. Maven Surefire Plugin
+6. Extentreports
 
 ## How to Run the Project
 1. Clone the repository
@@ -46,61 +46,61 @@ Run testNg.xml directly from IDE.
 After execution, reports are generated automatically in:
 /reports/Report*.html
 This includes:
-1.Test execution status
-2.Step-by-step logs
-3.Pass/Fail results
-4.Dashboard
+1. Test execution status
+2. Step-by-step logs
+3. Pass/Fail results
+4. Dashboard
 
 ## Test Data
-1.First Name: test
-2.Last Name: user
-3.Email:Generated using Mailosaur
-4.OTP: Retrieved automatically from Mailosaur inbox
-5.agencyName = "Test Agency"
-6.role = "QA"
-7.agencyEmail = "testagency"+ System.currentTimeMillis() + "@" + "gmail.com"
-8.website = "test.com" 
-9.address = "Bhaktapur"
+1. First Name: test
+2. Last Name: user
+3. Email:Generated using Mailosaur
+4. OTP: Retrieved automatically from Mailosaur inbox
+5. agencyName = "Test Agency"
+6. role = "QA"
+7. agencyEmail = "testagency"+ System.currentTimeMillis() + "@" + "gmail.com"
+8. website = "test.com" 
+9. address = "Bhaktapur"
 
 ## Project Structure 
-src
-|---- main
-|---- test
-      |---- base
-      |---- pages
-      |---- tests
-      |---- utils
-      |---- resources
-pom.xml
-Testng.xml
+## src
+ ## |---- main 
+ ## |---- test
+       |---- base
+       |---- pages
+       |---- tests
+       |---- utils
+       |---- resources
+## pom.xml
+## TestNg.xml
 
-1.In base there is setup of lunching browser and website. 
-2.In pages there are pages classes with locator and action
-3.In tests the main signup flow is executed
-4.In Utils there are mailosaur utilities for OTP extraction  and extend report utilities  for report generation
-5.In resources there is pfd folder 
-6.In pom.xml there are dependencies and project build
-7.In Testing.xml there is test suite configuration and specifies the test classes to be executed 
+1. In base there is setup of lunching browser and website. 
+2. In pages there are pages classes with locator and action
+3. In tests the main signup flow is executed
+4. In Utils there are mailosaur utilities for OTP extraction  and extend report utilities  for report generation
+5. In resources there is pfd folder 
+6. In pom.xml there are dependencies and project build
+7. In TestNg.xml there is test suite configuration and specifies the test classes to be executed 
 
 ## Automation Flow 
-1.Lunch Browser and Navigate to home page
-2.Navigate to register page 
-3.Complete all required signup forms  
-4.Retrieve OTP automatically from mailosaur inbox
-5.Enter OTP and verify account
-6.Fill all agency details
-7.Fill all experience details
-8.Fill all verification details
-9.Submit form
-10.Close browser
-11.Generate report
+1. Lunch Browser and Navigate to home page
+2. Navigate to register page 
+3. Complete all required signup forms  
+4. Retrieve OTP automatically from mailosaur inbox
+5. Enter OTP and verify account
+6. Fill all agency details
+7. Fill all experience details
+8. Fill all verification details
+9. Submit form
+10. Close browser
+11. Generate report
 
 ## Key Features
-1.Fully automated signup flow
-2.OTP email verification
-3.Page Object Model structure
-4.Automated reporting via listener
-5.No manual intervention required
+1. Fully automated signup flow
+2. OTP email verification
+3. Page Object Model structure
+4. Automated reporting via listener
+5. No manual intervention required
 
 ## Prepared By:
 Riya Tuitui
