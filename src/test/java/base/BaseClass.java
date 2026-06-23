@@ -13,12 +13,11 @@ public WebDriver driver;
 public void setUp() {
     driver = new ChromeDriver();
     driver.manage().window().maximize();
-    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-//    Navigate to URL
+
     driver.get("https://authorized-partner.vercel.app/");
 }
-//@AfterClass(alwaysRun = true)
-////public void closeBrowser() {
-////    driver.quit();
-////}
+@AfterClass(alwaysRun = true)
+public void closeBrowser() {
+    driver.quit();
+}
 }

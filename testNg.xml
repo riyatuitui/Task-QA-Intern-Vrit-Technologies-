@@ -1,0 +1,15 @@
+<suite name="MyTestSuite"  thread-count="2">
+    <test name="Test1">
+        <listeners>
+
+            <listener class-name="Utilities.ReportListener"/>
+        </listeners>
+        <classes>
+
+            <class name="tests.SignUpFlowTest">
+
+            </class>
+        </classes>
+    </test>
+
+</suite>

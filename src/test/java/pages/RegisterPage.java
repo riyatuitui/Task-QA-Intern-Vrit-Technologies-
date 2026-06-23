@@ -9,9 +9,11 @@ import java.time.Duration;
 
 public class RegisterPage {
 WebDriver driver;
+WebDriverWait wait;
 
 public RegisterPage(WebDriver driver) {
     this.driver = driver;
+    this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 }
 //Locator of remember me
 private By checkBox = By.id("remember");
@@ -21,7 +23,6 @@ private By checkBox = By.id("remember");
 
     //Action
     public void clickCheckBox() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(checkBox)).click();
     }
 

@@ -10,10 +10,10 @@ import java.time.Duration;
 
 public class SetUpAccountPage {
     WebDriver driver;
-
+    WebDriverWait wait;
     public SetUpAccountPage(WebDriver driver) {
         this.driver = driver;
-
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
     private By firstNameField = By.xpath("//input[@placeholder='Enter Your First Name']");
@@ -32,8 +32,7 @@ public class SetUpAccountPage {
 
 
     public void fillFirstName(String firstName) {
-        driver.findElement(firstNameField).sendKeys(firstName);
-
+        wait.until(ExpectedConditions.visibilityOfElementLocated(firstNameField)).sendKeys(firstName);
     }
 
     public void fillLastName(String lastName) {
