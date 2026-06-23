@@ -1,10 +1,10 @@
-QA intern task of signup flow (Vrit Technologies) 
-**Project Overview**
+##QA intern task of signup flow (Vrit Technologies) 
+##Project Overview
 This project automation was completed for signup flow of : https://authorized-partner.vercel.app/. This project covers all required steps of the signup 
 Process properly without manual intervention .
 It uses Selenium WebDriver with TestNG , mailosaur and follows the Page Object Model (POM) design pattern.
 
-**Tech Stack**
+##Tech Stack
 1.Java
 2.Selenium WebDriver
 3.TestNG
