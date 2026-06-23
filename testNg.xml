@@ -5,7 +5,6 @@
             <listener class-name="Utilities.ReportListener"/>
         </listeners>
         <classes>
-
             <class name="tests.SignUpFlowTest">
 
             </class>
