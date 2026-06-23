@@ -63,16 +63,16 @@ This includes:
 9. address = "Bhaktapur"
 
 ## Project Structure 
-## src
- ## |---- main 
- ## |---- test
+### src
+ ### |---- main 
+ ### |---- test
        |---- base
        |---- pages
        |---- tests
        |---- utils
        |---- resources
-## pom.xml
-## TestNg.xml
+### pom.xml
+### TestNg.xml
 
 1. In base there is setup of lunching browser and website. 
 2. In pages there are pages classes with locator and action
