@@ -12,13 +12,13 @@ It uses Selenium WebDriver with TestNG , mailosaur and follows the Page Object M
 5.Mailosaur (for OTP verification)
 6.Extent Reports / HTML Reporting
 
-**Prerequisites**
+## Prerequisites
 1.Make sure the following are installed:
 2.Java JDK 20
 3.Apache-maven-3.9.16
 4.Chrome Browser
 5.ChromeDriver (4.43.0)
-**Dependencies**
+## Dependencies
 The project uses the following dependencies:
 1.Selenium WebDriver
 2.TestNG
@@ -27,7 +27,7 @@ The project uses the following dependencies:
 5.Maven Surefire Plugin
 6.Extentreports
 
-**How to Run the Project**
+## How to Run the Project
 1. Clone the repository
  Run in cmd or bash :
   git clone https://github.com/riyatuitui/Task-QA-Intern-Vrit-Technologies-.git 
@@ -42,7 +42,7 @@ Option 2:
 Run testNg.xml directly from IDE.
 
 
-**Reporting**
+## Reporting
 After execution, reports are generated automatically in:
 /reports/Report*.html
 This includes:
@@ -51,7 +51,7 @@ This includes:
 3.Pass/Fail results
 4.Dashboard
 
-Test Data
+## Test Data
 1.First Name: test
 2.Last Name: user
 3.Email:Generated using Mailosaur
@@ -62,7 +62,7 @@ Test Data
 8.website = "test.com" 
 9.address = "Bhaktapur"
 
-**Project Structure **
+## Project Structure 
 src
 |---- main
 |---- test
@@ -82,7 +82,7 @@ Testng.xml
 6.In pom.xml there are dependencies and project build
 7.In Testing.xml there is test suite configuration and specifies the test classes to be executed 
 
-**Automation Flow **
+## Automation Flow 
 1.Lunch Browser and Navigate to home page
 2.Navigate to register page 
 3.Complete all required signup forms  
@@ -95,12 +95,12 @@ Testng.xml
 10.Close browser
 11.Generate report
 
-**Key Features**
+## Key Features
 1.Fully automated signup flow
 2.OTP email verification
 3.Page Object Model structure
 4.Automated reporting via listener
 5.No manual intervention required
 
-Prepared By:
+## Prepared By:
 Riya Tuitui
